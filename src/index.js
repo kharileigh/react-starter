@@ -1,8 +1,6 @@
 import React from 'react';
 import reactDom from 'react-dom';
 
-function App () {
-    return <h1>Hello, World!</h1>
-}
+import App from './app';
 
 reactDom.render(<App />, document.querySelector("root"));
